@@ -6,6 +6,8 @@
 %
 \usepackage[T1]{fontenc}
 \usepackage{hyperref}
+\usepackage{tabularx} 
+
 % T1 fonts will be used to generate the final print and online PDFs,
 % so please use T1 fonts in your manuscript whenever possible.
 % Other font encondings may result in incorrect characters.
@@ -29,7 +31,7 @@
 % an abbreviated paper title here
 %
 \author{
-Madhav Tripathi
+Madhav Tripathi (40232525)
 % \inst{1}\orcidID{0000-1111-2222-3333} 
 % \and
 % Second Author\inst{2,3}\orcidID{1111-2222-3333-4444} \and
@@ -51,15 +53,68 @@ Madhav Tripathi
 %
 \maketitle              % typeset the header of the contribution
 %
+
+% TODO: ADD TABLE OF CONTENTS
+\vspace{10mm}
+\begin{center}
+\Large\textbf{ Table of contents}\\[1ex]
+\end{center}
+
+{\renewcommand{\arraystretch}{1.5} % Adjusts the space between rows
+\begin{table}[h]
+\centering
+\begin{tabularx}{\textwidth}{|@{\hspace{2mm}}X|@{\hspace{2mm}}c@{\hspace{2mm}}|}
+\hline
+\textbf{Section} & \textbf{Page} \\ \hline
+\textbf{Abstract} & 2 \\ \hline
+\textbf{1. Introduction} & 2 \\ \hline
+\textbf{2. Understanding Leadership Challenges} & 2 \\
+\hspace{5mm}2.1 Challenges Faced by Inexperienced Leaders & \\
+\hspace{5mm}2.2 Misconceptions About Leadership in Technical Fields & \\ \hline
+\textbf{3. Leadership as Responsibility} & 4 \\
+\hspace{5mm}3.1 Robert L. Joss's Experience at Stanford GSB & \\
+\hspace{5mm}3.2 Adaptive Leadership & \\
+\hspace{5mm}3.3 Transition from Authoritative to Collaborative Leadership & \\ \hline
+\textbf{4. Gaining Credibility and Effective Communication }& 4 \\
+\hspace{5mm}4.1 Ways to Build Credibility for New Leaders & \\
+\hspace{5mm}4.2 Tips for Effective Communication & \\ \hline
+\textbf{5. Empowering Teams and Fostering Growth} & 6 \\
+\hspace{5mm}5.1 Key characteristics of empowering leadership & \\ \hline
+\textbf{6. The Role of Humility and Continuous Learning }& 7 \\
+\hspace{5mm}6.1 Humility in Leadership & \\
+\hspace{5mm}6.2 Continuous Learning in Leadership & \\ \hline
+\textbf{References} & 9 \\ \hline
+\end{tabularx}
+\end{table}
+} % Closing brace for the \arraystretch scope
+
+\newpage
+
 \begin{abstract}
 This report explores the paradigm shift in leadership within software development teams, emphasizing the concept of leadership as a responsibility rather than traditional authority. It addresses challenges faced by inexperienced leaders and proposes strategies for effective leadership, fostering team growth, and empowering team members.
 
 
-\keywords{ TODO: First keyword  \and Second keyword \and Another keyword.}
+\keywords{ 
+Adaptability \and
+Adaptive Leadership\and
+Collaboration\and
+Continuous Learning \and
+Emotional Intelligence\and
+Humility \and 
+Leadership Training\and
+Organizational Success \and
+Professional Growth \and
+Self-Awareness \and
+Software Development \and
+Team Management\and
+Technical Expertise
+}
 \end{abstract}
 %
 %
 %
+
+
 
 \section{Introduction}
 The dynamic nature of software development often places individuals with less experience in leadership roles, posing unique challenges. This report examines these challenges and argues that effective leadership in this context is defined more by the responsibility to guide and support, rather than wield authority.
@@ -139,13 +194,94 @@ The shift from authoritative to collaborative leadership involves changing the a
 \section{Gaining Credibility and Effective Communication}
 % Draft: Outline strategies for new leaders to gain credibility within their teams. Emphasize the importance of effective communication and how it can establish and reinforce a leader's position.
 
+Gaining credibility as a new leader and establishing effective communication are crucial for leadership success. Here are strategies and insights from various sources:
+
+\subsection{Ways to Build Credibility for New Leaders}
+
+\begin{description}
+
+ \item [$\bullet$ Active Listening] Pay close attention to what your team members say, minimizing distractions. Repeating back to confirm understanding can be helpful.\\
+ \item [$\bullet$ Be Clear and Concise] Communicate clearly, simply, and succinctly. Avoid over-complicating your message with unnecessary details.\\
+ \item [$\bullet$ Consistency] Follow through on what you say you will do. Inconsistent behavior can stress out your team and diminish your credibility.\\
+ \item [$\bullet$ Networking within the Organization] Recognize and engage with talent throughout your organization. This builds credibility and shows open-mindedness to different perspectives.\\
+ \item [$\bullet$ Seek Speaking Opportunities] Proactively look for chances to speak publicly. This builds your visibility and communication skills.\\
+ \item [$\bullet$ Trust in Training] Engage in leadership development opportunities. Training helps in relating and empathizing with your team.\\
+ \item [$\bullet$ Self-Confidence] Overcome imposter syndrome by facing fears and believing in yourself. Confidence is key to building credibility.\\
+
+\end{description}
+
+\subsection{Tips for Effective Communication}
+
+\begin{description}
+ \item [$\bullet$ Authenticity and Honesty] Be sincere and let your true personality come through in your communication. Authenticity fosters trust and followership.\\
+ \item [$\bullet$ Listening Skills] Listen actively to understand perspectives and build trust. Encourage open communication and ask insightful questions.\\
+ \item [$\bullet$ Clear Expectations] Establish and communicate clear expectations and norms within your team.\\
+ \item [$\bullet$ Storytelling] Use stories to illustrate your vision and goals. Stories can be more impactful than dry presentations of facts.\\
+ \item [$\bullet$ Know Your Audience] Tailor your communication style to different stakeholder groups. Consider their personalities and roles.\\
+ \item [$\bullet$ Body Language] Use positive nonverbal cues to inspire and make team members comfortable.\\
+ \item [$\bullet$ Reading the Room] Be attentive to nonverbal cues in your audience and adjust your communication style accordingly.\\
+ \item [$\bullet$ Encouraging Input and Taking Feedback Seriously] Create a culture where team members feel comfortable speaking up and their feedback is valued.\\
+ \item [$\bullet$ Aligning Actions with Communication] Ensure your actions match your words to maintain trust and credibility.\\
+ \item [$\bullet$ Initiating Difficult Conversations] Address concerns proactively and neutrally to resolve conflicts through open communication.\\
+ \item [$\bullet$ Involvement in Action Planning] Involve others in developing action plans and ensure everyone is aligned before strategy execution.\\
+ \item [$\bullet$ Reputation Management] Maintain a balance in your communication style to protect your leadership reputation.\\
+
+\end{description}
+ 
+Combining these strategies can greatly assist new leaders in gaining credibility and establishing effective communication within their teams. The key is to be authentic, consistent, and proactive in engaging with team members, while also being an effective and adaptable communicator.
+
 \section{Empowering Teams and Fostering Growth}
 % Draft: Discuss the role of a leader in empowering team members and fostering their growth. Use insights from the "SPM_TAS" document to illustrate how leaders can create environments where team members can thrive.
+
+The role of a leader in empowering team members and fostering their growth is multi-faceted and crucial for the success of any team or organization. Empowering leadership involves a deliberate choice to enable all team members to flourish, leading to a more cohesive and efficient group. This type of leadership creates an environment where individuals feel valued, leading to teams that are more creative, engaged, and productive.
+
+\subsection{Key characteristics of empowering leadership}
+
+\begin{description}
+ \item [$\bullet$ Vision Sharing] Effective leaders constantly remind their team of the overall vision and goals of the organization. They ensure that each team member understands their role in achieving these goals, which motivates them to bring their best selves to work. This practice helps employees to see the value and importance of their contributions.\\
+
+ \item [$\bullet$ Encouraging Self-Management] Rather than micromanaging, empowering leaders encourage employees to manage themselves. This approach fosters independence but still requires the leader to play an active role. It includes showing team members how their work fits into the bigger picture, thereby giving them a sense of ownership and responsibility for their tasks.\\
+
+ \item [$\bullet$ Building Trust and Confidence] Trust is the foundation of empowerment. Leaders must demonstrate trust in their team members' abilities, judgment, and decision-making skills. This confidence inspires employees to take ownership of their work and strive for excellence. When team members feel trusted, they are more likely to take initiative and be proactive in their roles.\\
+\end{description}
+
+In summary, empowering leadership is about creating an environment where team members feel valued, trusted, and capable of managing their responsibilities. It involves sharing a clear vision, encouraging self-management, and building a foundation of trust. These practices not only enhance individual growth but also contribute to the overall effectiveness and success of the team.
+
+
 
 \section{The Role of Humility and Continuous Learning}
 % Draft: Highlight the importance of humility and continuous learning in leadership. Discuss how these traits contribute to more effective leadership, especially in rapidly evolving fields like software development.
 
-\section{Conclusion}
+Humility and continuous learning are fundamental traits for effective leadership, particularly in dynamic and rapidly evolving fields such as software development.
+
+\subsection{Humility in Leadership}
+\begin{description}
+
+ \item [$\bullet$ Trait for Effective Leadership] Humility is a key trait that many successful leaders possess. This quality is characterized by a willingness to acknowledge and embrace weaknesses, ask for help when needed, and a constant curiosity and desire to learn. In today's changing business environment, a leader who thinks they have all the answers and must always be right is less likely to succeed. Instead, a leader skilled in including and drawing out contributions from various sources and always learning is more effective.\\
+
+ \item [$\bullet$ Self-Awareness and Recognition of Limitations] The American Psychological Association defines humility as having a low focus on oneself, an accurate sense of one's accomplishments and worth, and an acknowledgment of one's limitations and imperfections. This self-awareness in leadership is beneficial, as it prevents leaders from assuming they always have the best answers, enabling them to recognize when and where they may need help or outside input.\\
+
+ \item [$\bullet$ Confidence and Learning Desire] Humble leaders are confident in their skills and abilities, but they also recognize their blind spots and are not ashamed to admit them. This humility does not equate to a lack of confidence but rather includes a desire to learn continuously, recognizing that there's always more to learn. This learning culture often trickles down to their teams, promoting an environment of growth and development.\\
+\end{description}
+
+\subsection{Continuous Learning in Leadership}
+\begin{description}
+ \item [$\bullet$ Necessity for Relevance and Resilience] Continuous learning is indispensable to leadership, especially in a fast-changing world. Leaders who stop learning risk becoming irrelevant and ineffective. To remain resilient and effective, leaders must be intentional about their own development and growth, setting an example for their teams to follow.\\
+
+ \item [$\bullet$ Building a Culture of Learning] Creating a culture of continuous learning involves setting the tone, allocating resources, and establishing expectations that learning is integral to business success. This mindset starts at the top and permeates throughout the organization, allowing individuals to feel empowered to invest in their personal and professional growth.\\
+
+ \item [$\bullet$ Implementation and Impact] Continuous learning in the workplace can involve a variety of activities, such as leadership coaching, workshops, book clubs, and shared assessments. These experiences help to build leadership skills, improve self-awareness, and foster collaboration and communication. Implementing a combination of learning experiences over time allows people to practice their skills, share feedback, and build upon their competencies, enhancing individual and organizational performance.\\ 
+ \\
+ Continuous learning is a competitive advantage in a complex world, where adapting to new products, approaches, and processes is critical.\\
+
+In Summary, humility and continuous learning are essential for effective leadership in rapidly evolving fields like software development. Humility fosters an inclusive and adaptive approach, while continuous learning ensures that leaders and their teams stay relevant, resilient, and capable of handling the complexities and constant changes in their field. These traits contribute significantly to the effectiveness and success of leadership in dynamic environments.
+
+
+\end{description}
+
+
+
+% \section{Conclusion}
 % Draft: Summarize the key arguments made throughout the report. Reinforce the idea that effective leadership in software development is grounded in responsibility and support for team members.
 
 %
@@ -173,11 +309,41 @@ The shift from authoritative to collaborative leadership involves changing the a
 %   year={2000},
 %   url={https://api.semanticscholar.org/CorpusID:150446152}
 % }
+
+
+\bibitem{ref_paper1}
+Painter-Morland, Mollie. “Systemic Leadership and the Emergence of Ethical Responsiveness.” Journal of Business Ethics 82 (2008): 509-524.
+
+\bibitem{ref_paper2}
+Herman, H. (2022). TRUST TECHNICAL SKILL OF MADRASAH PRINCIPAL’S LEADERSHIP IN IMPROVING EMPLOYEE PERFOMANCE. PROCEEDINGS: Dirundeng International Conference on Islamic Studies.
+
+\bibitem{ref_paper3}
+Schepker, D.J., Nyberg, A.J., Ulrich, M., \& Wright, P.M. (2017). Planning for Future Leadership: Procedural Rationality, Formalized Succession Processes, and CEO Influence in CEO Succession Planning. Academy of Management Journal.
+
+\bibitem{ref_paper4}
+Monsalve, Juan Nicolás Montoya et al. “Replacing Formal Authority in the Workplace with Employee Self-governing Authority.” (2017).
+
+\bibitem{ref_paper5}
+Fader, A. (2020). 1. Life-Changing Doubt, the Internet, and a Crisis of Authority. Hidden Heretics.
+
+\bibitem{ref_paper6}
+Wallace, M.W. (2000). Mission Impossible? Leadership Responsibility without Authority for Initiatives To Reorganise Schools.
+
+\bibitem{ref_paper7}
+Charmettant, H. (2021). Authority and democracy: the Barnardian way to resolve an apparent oxymoron. Management \& Organizational History, 16, 255 - 275.
+
+\bibitem{ref_cgpt_p1}
+Chat GPT Prompt: Paraphrase and correct grammar \textit{"Items researched on the Internet"}
+
+\bibitem{ref_cgpt_p2}
+Chat GPT Prompt: Provide Syntax and examples for \textit{"latex table, title, sub/section, bullet points, reference"}
+
+
 \bibitem{ref_article1}
-\href{https://www.3pillarglobal.com/insights/10-leadership-traits-for-modern-software-development-leaders/}{10 Leadership Traits for Software Development Leaders, 3Pillar Global}
+\href{https://www.3pillarglobal.com/insights/10-leadership-traits-for-modern-software-development-leaders/}{Leadership Traits for Software Development Leaders, 3Pillar Global}
 
 \bibitem{ref_article2}
-\href{https://techleaderslaunchpad.com/blog/7-misconceptions-about-tech-leadership}{7 Misconceptions about Tech Leadership, Tech Leaders Launchpad}
+\href{https://techleaderslaunchpad.com/blog/7-misconceptions-about-tech-leadership}{Misconceptions about Tech Leadership, Tech Leaders Launchpad}
 
 \bibitem{ref_article3}
 \href{https://www.gsb.stanford.edu/insights/leadership-responsibility-not-power}{Leadership Is Responsibility, Not Power, Stanford Graduate School of Business}
@@ -189,19 +355,31 @@ The shift from authoritative to collaborative leadership involves changing the a
 \href{https://trainingindustry.com/articles/leadership/moving-from-authoritative-to-collaborative-leadership-benefits-and-best-practices-to-consider/#:~:text=1}{Moving From Authoritative to Collaborative Leadership, Training Industry}
 
 \bibitem{ref_article6}
-\href{}{}
+\href{https://blog.hubspot.com/marketing/build-credibility-new-leader}{Tips for ∂Effective Communication in Leadership, HubSpot}
 
 \bibitem{ref_article7}
-\href{}{}
+\href{https://www.ccl.org/articles/leading-effectively-articles/communication-1-idea-3-facts-5-tips/}{Ways to Build Credibility When You're a New Leader, Center for Creative Leadership (CCL)}
 
 \bibitem{ref_article8}
-\href{}{}
+\href{https://www.harvardbusiness.org/whoever-they-are-wherever-they-are-empowering-everyone-you-lead/#:~:text=The%20best%20leaders%20make%20the,getting%20to%20know%20your%20people}{How to Empower Everyone You Lead" from Harvard Business Publishing}
 
 \bibitem{ref_article9}
-\href{}{}
+\href{https://johnmattone.com/blog/why-leadership-must-empower-team-members-and-how-to-do-it/#:~:text=Empowering%20team%20members%20leads%20to,action%20of%20the%20empowered%20team}{Why Leadership Must Empower Team Members and How to Do It}
 
 \bibitem{ref_article10}
-\href{}{}
+\href{https://managementconsulted.com/empowering-leadership/#:~:text=Here%20are%20some%20empowering%20leadership,They%20are%20effective%20communicators}{Empowering Leadership: Traits \& Examples from Management Consulted}
+
+\bibitem{ref_article11}
+\href{https://www.leapsome.com/blog/empowering-leadership#:~:text=Empowering%20leadership%20is%20the%20practice,fits%20into%20the%20big%20picture}{Empowering Leadership | Benefits, Characteristics \& Tips}
+
+\bibitem{ref_article12}
+\href{https://maven.com/articles/empowerment-in-leadership#:~:text=1,2}{Empower Your Team: The Benefits of Empowerment in Leadership}
+
+\bibitem{ref_article13}
+\href{https://www.betterup.com/blog/humility-in-leadership}{Humility in Leadership: The Unsung Skill of Great Leaders, BetterUp}
+
+\bibitem{ref_article14}
+\href{https://innerwill.org/continuous-learning-in-leadership/#:~:text=Our%20clients%20compete%20in%20various,very%20much%20their%20competitive%20advantage}{The Importance of Continuous Learning in Leadership, InnerWill}
 
 % \bibitem{ref_lncs1}
 % Author, F., Author, S.: Title of a proceedings paper. In: Editor,
