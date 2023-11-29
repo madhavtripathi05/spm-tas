@@ -1,60 +1,29 @@
-% This is samplepaper.tex, a sample chapter demonstrating the
-% LLNCS macro package for Springer Computer Science proceedings;
-% Version 2.21 of 2022/01/12
-%
 \documentclass[runningheads]{llncs}
-%
+
 \usepackage[T1]{fontenc}
 \usepackage{hyperref}
 \usepackage{tabularx} 
 
-% T1 fonts will be used to generate the final print and online PDFs,
-% so please use T1 fonts in your manuscript whenever possible.
-% Other font encondings may result in incorrect characters.
-%
 \usepackage{graphicx}
-% Used for displaying a sample figure. If possible, figure files should
-% be included in EPS format.
-%
-% If you use the hyperref package, please uncomment the following two lines
-% to display URLs in blue roman font according to Springer's eBook style:
-%\usepackage{color}
-%\renewcommand\UrlFont{\color{blue}\rmfamily}
-%\urlstyle{rm}
-%
+\hypersetup{
+    colorlinks=true, % Colored links instead of boxes
+    linkcolor=black, % Color of internal links
+    citecolor=black, % Color of citations
+    filecolor=black, % Color of file links
+    urlcolor=blue,   % Color of external links
+}
 \begin{document}
-%
-\title{Leadership Is About Responsibility, Not Authority}
-%
-%\titlerunning{Abbreviated paper title}
-% If the paper title is too long for the running head, you can set
-% an abbreviated paper title here
-%
-\author{
-Madhav Tripathi (40232525)
-% \inst{1}\orcidID{0000-1111-2222-3333} 
-% \and
-% Second Author\inst{2,3}\orcidID{1111-2222-3333-4444} \and
-% Third Author\inst{3}\orcidID{2222--3333-4444-5555}
-}
-%
-\authorrunning{M. Tripathi}
-% First names are abbreviated in the running head.
-% If there are more than two authors, 'et al.' is used.
-%
-\institute{Concordia University, Montreal QC H3G-1M8, Canada
-% \and
-% Springer Heidelberg, Tiergartenstr. 17, 69121 Heidelberg, Germany
-% \email{lncs@springer.com}\\
-% \url{http://www.springer.com/gp/computer-science/lncs} \and
-% ABC Institute, Rupert-Karls-University Heidelberg, Heidelberg, Germany\\
-% \email{\{abc,lncs\}@uni-heidelberg.de}
-}
-%
-\maketitle              % typeset the header of the contribution
-%
 
-% TODO: ADD TABLE OF CONTENTS
+\title{Leadership Is About Responsibility, Not Authority}
+
+\author{
+Madhav Tripathi
+}
+
+\institute{Concordia University, Montreal QC H3G-1M8, Canada
+}
+\maketitle              % typeset the header of the contribution
+
 \vspace{10mm}
 \begin{center}
 \Large\textbf{ Table of contents}\\[1ex]
@@ -74,17 +43,18 @@ Madhav Tripathi (40232525)
 \textbf{3. Leadership as Responsibility} & 4 \\
 \hspace{5mm}3.1 Robert L. Joss's Experience at Stanford GSB & \\
 \hspace{5mm}3.2 Adaptive Leadership & \\
-\hspace{5mm}3.3 Transition from Authoritative to Collaborative Leadership & \\ \hline
-\textbf{4. Gaining Credibility and Effective Communication }& 4 \\
+\hspace{5mm}3.3 Transition from Authoritative to Collaborative Leadership & \\
+\hspace{5mm}3.4 Leadership in Agile & \\ \hline
+\textbf{4. Gaining Credibility and Effective Communication }& 5 \\
 \hspace{5mm}4.1 Ways to Build Credibility for New Leaders & \\
 \hspace{5mm}4.2 Tips for Effective Communication & \\ \hline
-\textbf{5. Empowering Teams and Fostering Growth} & 6 \\
+\textbf{5. Empowering Teams and Fostering Growth} & 7 \\
 \hspace{5mm}5.1 Key characteristics of empowering leadership & \\ \hline
 \textbf{6. The Role of Humility and Continuous Learning }& 7 \\
 \hspace{5mm}6.1 Humility in Leadership & \\
 \hspace{5mm}6.2 Continuous Learning in Leadership & \\ \hline
-\textbf{7. Comparative Analysis of Leadership Style}& 8 \\ \hline
-\textbf{References} & 9 \\ \hline
+\textbf{7. Comparative Analysis of Leadership Style} & 9 \\ \hline
+\textbf{References} & 10 \\ \hline
 \end{tabularx}
 \end{table}
 } % Closing brace for the \arraystretch scope
@@ -111,11 +81,6 @@ Team Management\and
 Technical Expertise
 }
 \end{abstract}
-%
-%
-%
-
-
 
 \section{Introduction}
 The dynamic nature of software development often places individuals with less experience in leadership roles, posing unique challenges. This report examines these challenges and argues that effective leadership in this context is defined more by the responsibility to guide and support, rather than wield authority.
@@ -176,7 +141,6 @@ In summary, inexperienced leaders in the tech industry face a blend of challenge
 \end{description}
 
 \section{Leadership as Responsibility}
-% Draft: Elaborate on the concept that "Leadership is responsibility, not authority." Provide examples and empirical evidence to support this viewpoint. Discuss the shift from traditional authoritative roles to a more responsibility-centric approach in leadership.
 
 The concept of "Leadership is responsibility, not authority" is a significant shift from traditional leadership models. This approach emphasizes the leader's role in facilitating the growth and success of their team, rather than exerting control or power over them. Empirical evidence and examples demonstrate the effectiveness and relevance of this leadership philosophy.
 
@@ -192,8 +156,33 @@ Traditional top-down leadership models are often too rigid to deal with rapid ch
 
 The shift from authoritative to collaborative leadership involves changing the approach to difficult interactions and decision-making. Instead of imposing authority, leaders are encouraged to bring a different presence to these interactions, focusing on collaboration rather than control. This approach requires leaders to not take things personally and to understand that reacting aggressively or defensively can exacerbate problems rather than resolve them. Collaborative leadership practices involve understanding and navigating team dynamics, maintaining openness, and avoiding the pitfalls of personalizing professional challenges
 
+
+\subsection{Leadership in Agile}
+
+In the context of agile development methodologies, this diagram provides a conceptual framework that outlines the interplay between various leadership styles and their subsequent impact on project performance. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\textwidth]{lead.png}
+\caption{Interplay of Leadership Styles in Agile Development}
+\label{fig:leadershipstyles}
+\end{figure}
+
+The framework identifies four distinct styles of leadership: \\
+\begin{description}
+
+ \item [$\bullet$ Directive Leadership] This style is characterized by a top-down approach where leaders provide explicit instructions and closely supervise tasks. \\
+
+ \item [$\bullet$ Empowering Leadership] Leaders in this style delegate authority, encourage autonomy, and facilitate employee empowerment, positioning it as a central mechanism affecting project outcomes. \\
+
+ \item [$\bullet$ Shared Leadership] This democratic approach diffuses leadership responsibilities among team members, promoting a more collaborative environment. \\
+
+ \item [$\bullet$ Self-leadership] Individuals are encouraged to self-manage, exercising autonomy in personal goal-setting and task execution. \\
+
+\end{description}
+
 \section{Gaining Credibility and Effective Communication}
-% Draft: Outline strategies for new leaders to gain credibility within their teams. Emphasize the importance of effective communication and how it can establish and reinforce a leader's position.
+
 
 Gaining credibility as a new leader and establishing effective communication are crucial for leadership success. Here are strategies and insights from various sources:
 
@@ -216,23 +205,19 @@ Gaining credibility as a new leader and establishing effective communication are
 \begin{description}
  \item [$\bullet$ Authenticity and Honesty] Be sincere and let your true personality come through in your communication. Authenticity fosters trust and followership.\\
  \item [$\bullet$ Listening Skills] Listen actively to understand perspectives and build trust. Encourage open communication and ask insightful questions.\\
- \item [$\bullet$ Clear Expectations] Establish and communicate clear expectations and norms within your team.\\
  \item [$\bullet$ Storytelling] Use stories to illustrate your vision and goals. Stories can be more impactful than dry presentations of facts.\\
  \item [$\bullet$ Know Your Audience] Tailor your communication style to different stakeholder groups. Consider their personalities and roles.\\
  \item [$\bullet$ Body Language] Use positive nonverbal cues to inspire and make team members comfortable.\\
  \item [$\bullet$ Reading the Room] Be attentive to nonverbal cues in your audience and adjust your communication style accordingly.\\
  \item [$\bullet$ Encouraging Input and Taking Feedback Seriously] Create a culture where team members feel comfortable speaking up and their feedback is valued.\\
- \item [$\bullet$ Aligning Actions with Communication] Ensure your actions match your words to maintain trust and credibility.\\
  \item [$\bullet$ Initiating Difficult Conversations] Address concerns proactively and neutrally to resolve conflicts through open communication.\\
  \item [$\bullet$ Involvement in Action Planning] Involve others in developing action plans and ensure everyone is aligned before strategy execution.\\
- \item [$\bullet$ Reputation Management] Maintain a balance in your communication style to protect your leadership reputation.\\
 
 \end{description}
  
 Combining these strategies can greatly assist new leaders in gaining credibility and establishing effective communication within their teams. The key is to be authentic, consistent, and proactive in engaging with team members, while also being an effective and adaptable communicator.
 
 \section{Empowering Teams and Fostering Growth}
-% Draft: Discuss the role of a leader in empowering team members and fostering their growth. Use insights from the "SPM_TAS" document to illustrate how leaders can create environments where team members can thrive.
 
 The role of a leader in empowering team members and fostering their growth is multi-faceted and crucial for the success of any team or organization. Empowering leadership involves a deliberate choice to enable all team members to flourish, leading to a more cohesive and efficient group. This type of leadership creates an environment where individuals feel valued, leading to teams that are more creative, engaged, and productive.
 
@@ -249,9 +234,7 @@ The role of a leader in empowering team members and fostering their growth is mu
 In summary, empowering leadership is about creating an environment where team members feel valued, trusted, and capable of managing their responsibilities. It involves sharing a clear vision, encouraging self-management, and building a foundation of trust. These practices not only enhance individual growth but also contribute to the overall effectiveness and success of the team.
 
 
-
 \section{The Role of Humility and Continuous Learning}
-% Draft: Highlight the importance of humility and continuous learning in leadership. Discuss how these traits contribute to more effective leadership, especially in rapidly evolving fields like software development.
 
 Humility and continuous learning are fundamental traits for effective leadership, particularly in dynamic and rapidly evolving fields such as software development.
 
@@ -301,35 +284,8 @@ This table compares leadership styles based on authority with those based on res
 
 
 \newpage
-% \section{Conclusion}
-% Draft: Summarize the key arguments made throughout the report. Reinforce the idea that effective leadership in software development is grounded in responsibility and support for team members.
 
-%
-% ---- Bibliography ----
-%
-% BibTeX users should specify bibliography style 'splncs04'.
-% References will then be sorted and formatted in the correct style.
-%
-% \bibliographystyle{splncs04}
-% \bibliography{mybibliography}
-%
 \begin{thebibliography}{10}
-% @article{Schepker2017PlanningFF,
-%   title={Planning for Future Leadership: Procedural Rationality, Formalized Succession Processes, and CEO Influence in CEO Succession Planning},
-%   author={Donald J. Schepker and Anthony J. Nyberg and Mike Ulrich and Patrick M Wright},
-%   journal={Academy of Management Journal},
-%   year={2017},
-%   url={https://api.semanticscholar.org/CorpusID:168660302}
-% }   
-
-
-% @inproceedings{Wallace2000MissionIL,
-%   title={Mission Impossible? Leadership Responsibility without Authority for Initiatives To Reorganise Schools.},
-%   author={Mike W. Wallace},
-%   year={2000},
-%   url={https://api.semanticscholar.org/CorpusID:150446152}
-% }
-
 
 \bibitem{ref_paper1}
 Painter-Morland, Mollie. “Systemic Leadership and the Emergence of Ethical Responsiveness.” Journal of Business Ethics 82 (2008): 509-524.
@@ -351,6 +307,9 @@ Wallace, M.W. (2000). Mission Impossible? Leadership Responsibility without Auth
 
 \bibitem{ref_paper7}
 Charmettant, H. (2021). Authority and democracy: the Barnardian way to resolve an apparent oxymoron. Management \& Organizational History, 16, 255 - 275.
+
+\bibitem{ref_paper8}
+Shen, Y., \& Xu, P. (2015). Leading Agile Teams: An Exploratory Study of Leadership Styles in Agile Software Development. Americas Conference on Information Systems.
 
 \bibitem{ref_cgpt_p1}
 Chat GPT Prompt: Paraphrase and correct grammar \textit{"Items researched on the Internet"}
@@ -406,20 +365,5 @@ Chat GPT Prompt: Provide Syntax and examples for \textit{"latex table, title, su
 \href{https://joshuamevans.com/authority-vs-responsibility-the-battle-of-leadership-styles/}{Authority vs. Responsibility: The Battle of Leadership Styles}
 
 
-% \bibitem{ref_lncs1}
-% Author, F., Author, S.: Title of a proceedings paper. In: Editor,
-% F., Editor, S. (eds.) CONFERENCE 2016, LNCS, vol. 9999, pp. 1--13.
-% Springer, Heidelberg (2016). \doi{10.10007/1234567890}
-
-% \bibitem{ref_book1}
-% Author, F., Author, S., Author, T.: Book title. 2nd edn. Publisher,
-% Location (1999)
-
-% \bibitem{ref_proc1}
-% Author, A.-B.: Contribution title. In: 9th International Proceedings
-% on Proceedings, pp. 1--2. Publisher, Location (2010)
-
-% \bibitem{ref_url1}
-% LNCS Homepage, \url{http://www.springer.com/lncs}, last accessed 2023/10/25
 \end{thebibliography}
 \end{document}
